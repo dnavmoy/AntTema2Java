@@ -31,7 +31,7 @@ public class Ej01 {
      public static int pedirNumero( String text){
         
         String mensaje=(text.isBlank())
-            ? "Introduce datos"
+            ? "Introduce datos por teclado"
             :text;
          System.out.println(mensaje);
          int numero=teclado.nextInt();
