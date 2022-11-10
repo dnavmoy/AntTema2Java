@@ -19,6 +19,9 @@ public class Ej05 {
         double sobraExtra=sobrante(numeroProfesores, numeroHoras,numeroGrupos);
        numeroProfesores=Math.ceil(numeroProfesores);
         System.out.println("El total de profesores es :%f y sobran %f horas".formatted(numeroProfesores,sobraExtra));
+        
+  
+        
     }
     
     public static double numeroProfesores(int numerohoras,int numeroGrupos){
