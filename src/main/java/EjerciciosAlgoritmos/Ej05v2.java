@@ -12,10 +12,10 @@ import static EjerciciosAlgoritmos.Ej01.pedirNumero;
  */
 public class Ej05v2 {
     public static void main(String[] args) {
-        int horasProfesor,grupos;
+        int horasProfesor,gruposProfesores;
         horasProfesor=pedirNumero("cuantas horas da cada profesor?");
-        grupos=pedirNumero("¿Cuantos grupos hay");
-        double totalProfesores=totalProfesoras(horasProfesor,grupos);
+        gruposProfesores=pedirNumero("¿Cuantos grupos hay");
+        double totalProfesores=totalProfesoras(horasProfesor,gruposProfesores);
         boolean decimales=tieneDecimales(totalProfesores);
          double horasExtras=(1-(totalProfesores%1))*horasProfesor;
          //double horasExtras=(totalProfesores%1)*100/horasProfesor;
