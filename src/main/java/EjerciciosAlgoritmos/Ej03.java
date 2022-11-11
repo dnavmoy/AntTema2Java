@@ -12,7 +12,7 @@ import static EjerciciosAlgoritmos.Ej01.pedirNumero;
 public class Ej03 {
     public static void main(String[] args) {
         
-        double nota1=pedirNumero("Introduce primer numero");
+        double nota1=pedirNumero("Introduce 1 numero");
         double nota2=pedirNumero("Introduce segundo numero");
         double nota3=pedirNumero("Introduce tercer numero");
         
