@@ -4,25 +4,36 @@
  */
 package EjerciciosAlgoritmos;
 
+ 
+
+import java.util.Scanner;
+
 /**
  *
  * @author daniel
  */
 public class Ej07 {
+    
+     public static Scanner teclado =new Scanner(System.in);
     public static void main(String[] args) {
-        double tipoConversion=Ej01.pedirNumero("cual es el tipo de conversion?");
-        double cantidadEuros=Ej01.pedirNumero("Cuantos euros");
+        
+   
+        double tipoConversion=pedirNumeroDouble("cual es el tipo de conversion?");
+        double cantidadEuros=pedirNumeroDouble("Cuantos euros");
         double cantidadDolares=cantidadEuros*tipoConversion;
         
-        System.out.println("El total de dolares es: %d".formatted(cantidadDolares));
+        System.out.println("El total de dolares es: " + cantidadDolares);
        
             
     }
-}
+
 public static double pedirNumeroDouble( String text){
         
-        String mensaje=(text.isBlank())
+          String mensaje=(text.isBlank())
             ? "Introduce datos por teclado"
             :text;
          System.out.println(mensaje);
-         double numero=teclado.nextInt();
+         double numero=teclado.nextDouble();
+         return numero;
+         }
+}
