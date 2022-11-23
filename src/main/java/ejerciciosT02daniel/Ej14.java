@@ -17,7 +17,7 @@ public class Ej14 {
       
        String texto;
        
-//      int minutos,horas;
+//      int minutos,horas; añado algo
 //      Scanner teclado = new Scanner(System.in);
 //      System.out.println("Dime segundos");
 //      int segundos = teclado.nextInt();
@@ -43,7 +43,7 @@ public class Ej14 {
      segundos = segundos - minutos*60;
       
        
-      JOptionPane.showMessageDialog(null, "%d horas %d minutos %d segundos".formatted(horas,minutos,segundos));
+      JOptionPane.showMessageDialog(null, "%d horas %d minutos %d segundos algo mas".formatted(horas,minutos,segundos));
         
                                         }
 }
