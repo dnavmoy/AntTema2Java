@@ -43,7 +43,7 @@ public class Ej14 {
      segundos = segundos - minutos*60;
       
        
-      JOptionPane.showMessageDialog(null, "%d horas %d minutos %d segundos algo mas".formatted(horas,minutos,segundos));
+      JOptionPane.showMessageDialog(null, "%d horas %d minutos %d segundos".formatted(horas,minutos,segundos));
         
                                         }
 }
