@@ -19,3 +19,10 @@ public class Ej07 {
             
     }
 }
+public static double pedirNumeroDouble( String text){
+        
+        String mensaje=(text.isBlank())
+            ? "Introduce datos por teclado"
+            :text;
+         System.out.println(mensaje);
+         double numero=teclado.nextInt();
