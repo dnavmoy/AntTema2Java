@@ -11,7 +11,7 @@ package EjerciciosAlgoritmos;
 public class Ej09 {
     public static void main(String[] args) {
         double precioArticulo,precioConIva;
-        final double IVA=(21/100);
+        final double IVA=(21.0/100);
         System.out.println("el iva es: " + IVA);
         precioArticulo=Ej07.pedirNumeroDouble("cuanto cuesta el articulo?: ");
         
