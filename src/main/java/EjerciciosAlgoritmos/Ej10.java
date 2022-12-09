@@ -12,13 +12,13 @@ package EjerciciosAlgoritmos;
 public class Ej10 {
 
     public static void main(String[] args) {
-        double ladoA,ladoB,ladoC;
+        double ladoA;
         
         ladoA=Ej07.pedirNumeroDouble("Introduce lado A");
-        ladoB=Ej07.pedirNumeroDouble("introduce lado B");
-        ladoC=Ej07.pedirNumeroDouble("Introduce lado C");
+        //ladoB=Ej07.pedirNumeroDouble("introduce lado B");
+        //ladoC=Ej07.pedirNumeroDouble("Introduce lado C");
         
-        System.out.println("lado a"+ ladoA+"ladoB"+ladoB+"ladoc"+ ladoC);
+        System.out.println("lado a"+ ladoA);
     }
     
 }

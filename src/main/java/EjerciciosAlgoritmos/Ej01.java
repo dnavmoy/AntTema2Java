@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class Ej01 {
     public static Scanner teclado =new Scanner(System.in);
     public static void main(String[] args) {
+
         
 //            double gradosFarenheit;
 //            
@@ -22,7 +23,7 @@ public class Ej01 {
 //            gradosFarenheit= gradosCentigrados*1.8 +32;
 //            System.out.println("Fº : " + gradosFarenheit);
 //            
-  String text="Introduce grados Centigrados: "; 
+        String text="Introduce grados Centigrados: "; 
         int numero=pedirNumero(text);
         double gradosFarenheit=numero*1.8 + 32;
         System.out.println("Grados Farenheit: "+gradosFarenheit);

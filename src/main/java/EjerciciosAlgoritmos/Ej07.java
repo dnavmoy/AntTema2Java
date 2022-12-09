@@ -15,14 +15,15 @@ import java.util.Scanner;
 public class Ej07 {
     
      public static Scanner teclado =new Scanner(System.in);
+     
     public static void main(String[] args) {
         
-   
-        double tipoConversion=pedirNumeroDouble("cual es el tipo de conversion?");
+   double tipoConversion=pedirNumeroDouble("cual es el tipo de conversion?");
         double cantidadEuros=pedirNumeroDouble("Cuantos euros");
         double cantidadDolares=cantidadEuros*tipoConversion;
         
         System.out.println("El total de dolares es: " + cantidadDolares);
+        
         
     }
        
