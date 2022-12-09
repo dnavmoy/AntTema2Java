@@ -23,11 +23,10 @@ public class Ej07 {
         double cantidadDolares=cantidadEuros*tipoConversion;
         
         System.out.println("El total de dolares es: " + cantidadDolares);
-       
-            
+        
     }
-
-public static double pedirNumeroDouble( String text){
+       
+    public static double pedirNumeroDouble( String text){
         
           String mensaje=(text.isBlank())
             ? "Introduce datos por teclado"
@@ -36,4 +35,6 @@ public static double pedirNumeroDouble( String text){
          double numero=teclado.nextDouble();
          return numero;
          }
-}
+}        
+    
+
