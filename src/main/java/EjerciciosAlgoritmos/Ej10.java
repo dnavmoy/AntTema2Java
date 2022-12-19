@@ -17,17 +17,16 @@ public class Ej10 {
         double ladoA, ladoB, ladoC;
         
         ladoA=pedirNumeroJO("Introduce lado A");
-        ladoB=Ej07v2.pedirNumeroJO("introduce lado B");
-        ladoC=Ej07v2.pedirNumeroJO("Introduce lado C");
+        ladoB=pedirNumeroJO("introduce lado B");
+        ladoC=pedirNumeroJO("Introduce lado C");
+        
         
         System.out.println("lado a "+ ladoA+ "lado b: "+ladoB+"lado c: "+ladoC);
     }
-        public static double pedirNumeroJO(String texto){
-         String mensaje=(texto.isBlank())
-                ? "Introduce datos por teclado"
-            :texto;
-               
+      public static double pedirNumeroJO(String texto){
+        String mensaje=JOptionPane.showInputDialog(texto);
+        
          double numero=Double.parseDouble(mensaje);
          return numero;
-
+      }
 }
