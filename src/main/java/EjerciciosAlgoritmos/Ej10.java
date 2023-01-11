@@ -14,19 +14,26 @@ import javax.swing.JOptionPane;
 public class Ej10 {
 
     public static void main(String[] args) {
-        double ladoA, ladoB, ladoC;
+        double ladoA, ladoB, ladoC, area;
         
         ladoA=pedirNumeroJO("Introduce lado A");
         ladoB=pedirNumeroJO("introduce lado B");
         ladoC=pedirNumeroJO("Introduce lado C");
-        
-        
-        System.out.println("lado a "+ ladoA+ "lado b: "+ladoB+"lado c: "+ladoC);
+        area=calcularArea(ladoA,ladoB,ladoC);
+        System.out.println(area);
     }
       public static double pedirNumeroJO(String texto){
         String mensaje=JOptionPane.showInputDialog(texto);
         
          double numero=Double.parseDouble(mensaje);
          return numero;
+      }
+      
+      public static double calcularArea(double ladoA, double ladoB, double ladoC){
+          double areaTotal,area1,area2;
+          area1=ladoB*ladoC;
+          area2=(ladoB*(ladoA-ladoC))/2;
+          areaTotal=area1+area2;
+          return areaTotal;
       }
 }
