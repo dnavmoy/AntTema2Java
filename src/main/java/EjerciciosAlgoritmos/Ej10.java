@@ -20,7 +20,9 @@ public class Ej10 {
         ladoB=pedirNumeroJO("introduce lado B");
         ladoC=pedirNumeroJO("Introduce lado C");
         area=calcularArea(ladoA,ladoB,ladoC);
-        System.out.println(area);
+        JOptionPane.showMessageDialog(null,area);
+        
+        
     }
       public static double pedirNumeroJO(String texto){
         String mensaje=JOptionPane.showInputDialog(texto);
