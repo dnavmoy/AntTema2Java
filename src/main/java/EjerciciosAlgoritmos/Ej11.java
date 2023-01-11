@@ -22,8 +22,11 @@ public class Ej11 {
     public static double calcularAreaRara( double ladoH,double ladoR){
         double area1,area2,areaTotal;
         area1=(ladoH*(ladoR*2))/2;
-        area2=((ladoR*ladoR)*3.16)/2;
+        double cuadradoLadoR=Math.sqrt(ladoR);
+        area2=((cuadradoLadoR)*Math.PI)/2;
         areaTotal=area1+area2;
+        
+        
         
         return areaTotal;
     }
