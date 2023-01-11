@@ -17,7 +17,7 @@ public class Ej11 {
         ladoH=Ej10.pedirNumeroJO("Introduce lado H");
         ladoR=Ej10.pedirNumeroJO("Introduce lado R");
         areaTotal=calcularAreaRara(ladoH, ladoR);
-        JOptionPane.showMessageDialog(null, areaTotal);
+        JOptionPane.showMessageDialog(null,"El area es %.2f".formatted(areaTotal));
     }
     public static double calcularAreaRara( double ladoH,double ladoR){
         double area1,area2,areaTotal;
